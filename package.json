@@ -17,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/bdixon850/SetAppointment/issues"
   },
-  "homepage": "https://github.com/bdixon850/SetAppointment#readme"
+  "homepage": "https://github.com/bdixon850/SetAppointment#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.0",
+    "dotenv": "^8.0.0",
+    "mongoose": "^5.5.13"
+  }
 }

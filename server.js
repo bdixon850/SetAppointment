@@ -8,10 +8,10 @@ app.use(express.json())
 
 app.use('/', routes)
 
-app.use(express.static(__dirname + '/client/build/'))
+app.use(express.static(__dirname + '/client/public/'))
 
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/client/build/index.html')
+    res.sendFile(__dirname + '/client/public/index.html')
 })
 
 const PORT = process.env.PORT || 3001;
